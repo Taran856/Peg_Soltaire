@@ -7,7 +7,7 @@ def convert_strings_to_list(board):
 def is_valid_move(board, row, column, direction):
     if board[row][column] == '@':
         if direction == '1':
-            if board[row - 1][column] == '@' and board[row-2][column] == '-':
+            if board[row - 1][column] == '@' and board[row - 2][column] == '-':
                 return True
             else:
                 return False
@@ -16,13 +16,13 @@ def is_valid_move(board, row, column, direction):
             if row >= len(board) - 2:
                 return False
             else:
-                if board[row + 1][column] == '@' and board[row+2][column] == '-':
+                if board[row + 1][column] == '@' and board[row + 2][column] == '-':
                     return True
                 else:
                     return False
 
         if direction == '3':
-            if board[row][column - 1] == '@' and board[row][column-2] == '-':
+            if board[row][column - 1] == '@' and board[row][column - 2] == '-':
                 return True
             else:
                 return False
