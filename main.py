@@ -127,7 +127,7 @@ Simple_T = ' 12345\n' \
 boards_list = [Cross, Circle, Triangle, Simple_T]
 
 # GENERAL LAYOUT OF THE GAME
-print('WELCOME TO CS300 PEG SOLITAIRE!')
+print('WELCOME TO PEG SOLITAIRE!')
 print('===============================')
 
 print('Board Style Menu\n'
@@ -192,4 +192,4 @@ while x:
         x = False
 
 print('==========================================')
-print('THANK YOU FOR PLAYING CS300 PEG SOLITAIRE!')
+print('THANK YOU FOR PLAYING PEG SOLITAIRE!')
