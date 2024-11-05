@@ -168,11 +168,3 @@ Choose a DIRECTION to move that peg 1) UP, 2) DOWN, 3) LEFT, or 4) RIGHT: 1
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributions
-
-Feel free to submit issues or pull requests if you have any improvements or bug fixes!
-
-## Screenshots
-
-_Note: Add your screenshots here once you've run the game._
